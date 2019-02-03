@@ -1,28 +1,28 @@
-- name: Home
+- name: Hone
   path: index.html
   section_id: home
   children:
-    - name: Home Studio
+    - name: Introduction
       path: index.html
-    - name: Home Personal
+    - name: Education
       path: index-personal.html
 - name: Skills
   path: about.html
   section_id: pages
   children:
-    - name: About Us
+    - name: About Sara
       path: about.html
-    - name: Services
+    - name: About Sara
       path: services.html
-    - name: Services 2
+    - name: Working Skills
       path: services-2.html
 - name: Works
   path: portfolio.html
   section_id: works
   children:
-    - name: Portfolio Style 1
+    - name: Portfolio for Works
       path: portfolio.html
-    - name: Portfolio Style 2
+    - name: Portfolio for Interests
       path: portfolio-2.html
     - name: Single Page 1
       path: portfolio-item.html
@@ -35,7 +35,7 @@
   path: blog.html
   section_id: blog
   children:
-    - name: Blog
+    - name: After Work
       path: blog/
     - name: Single Page
       path: travel/2016/04/06/beautiful-day.html
