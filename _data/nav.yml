@@ -4,6 +4,8 @@
   children:
     - name: Introduction
       path: index.html
+    - name: About Sara
+      path: about-sara.html
     - name: Education
       path: index-personal.html
 
@@ -12,24 +14,28 @@
   section_id: pages
   children:
     - name: About Sara
-      path: about.html
-    - name: About Sara
       path: services.html
     - name: Working Skills
       path: services-2.html
 
-- name: Works
+- name: Work Experience
   path: portfolio.html
   section_id: works
   children:
+    - name: LACCD
+      path: LACCD.html
+
+    - name: ECE
+      path: ECE.html
+
+    - name: EDI Inc
+      path: EDI.html
+
     - name: Portfolio for Works
-      path: portfolio.html
+      path: portfolio-professional-work.html
+
     - name: Portfolio for Interests
       path: portfolio-2.html
-    - name: Single Page 1
-      path: portfolio-item.html
-    - name: Single Page 2
-      path: portfolio-item-2.html
 
 - name: Contact
   path: contact.html
