@@ -4,19 +4,21 @@
   children:
     - name: Introduction
       path: index.html
-    - name: Personality 
-      path: personality.html
     - name: Education
       path: education.html
-
-- name: Skills
-  path: about-sara.html
-  section_id: pages
-  children:
-    - name: About Sara
+    - name: Qualification 
+      path: personality.html
+    - name: More Skills
       path: services-2.html
-    - name: Working Skills
-      path: working-skill.html
+
+# - name: Skills
+#   path: about-sara.html
+#   section_id: pages
+#   children:
+#     - name: About Sara
+#       path: services-2.html
+#     - name: Working Skills
+#       path: working-skill.html
 
 - name: Works
   path: portfolio-professional-work.html
@@ -35,7 +37,7 @@
   path: portfolio-for-interests.html
   section_id: blog
   children:
-    - name: My Diaries
+    - name: Digital Diary
       path: blog/
     # - name: My Journal
     #   path: 2019-02-06-blog.md
