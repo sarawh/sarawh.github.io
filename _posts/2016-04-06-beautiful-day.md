@@ -1,8 +1,8 @@
 ---
 layout: post
-title: beautiful day
-author: hornyou
-date: 2016-04-06 06:50:03 +0800
+title: DIY Wedding Diary
+author: Sara Wang
+date: 2016-04-06 06:50:03
 categories: travel
 images:
 - images/@stock/post-7.jpg

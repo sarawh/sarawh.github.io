@@ -1,3 +1,4 @@
+
 /*-----------------------------------
 [Table of Contents]
 1. Base
@@ -64,6 +65,12 @@
 
 .full.flower {
   background-image: url(../images/@stock/flower.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-attachment: fixed; }
+
+.full.mianbao {
+  background-image: url(../images/mianbao300.jpg);
   background-repeat: no-repeat;
   background-position: right bottom;
   background-attachment: fixed; }

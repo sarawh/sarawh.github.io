@@ -1,0 +1,237 @@
+---
+layout: default
+section_id: pages
+members:
+- name: Marketing
+  position: about 3 years
+  avatar: images/teammini.jpg
+  avatar_hover: images/teammini.jpg
+  <!-- socials:
+  - name: twitter
+    url: http://twitter.com
+  - name: facebook
+    url: http://facebook.com
+  - name: linkedin
+    url: http://linkedin.com
+  - name: dribbble
+    url: http://dribbble.com -->
+- name: Desgin
+  position: nearly 2 years
+  avatar: images/artmini.jpg
+  avatar_hover: artmini.jpg
+  <!-- socials:
+  - name: twitter
+    url: http://twitter.com
+  - name: facebook
+    url: http://facebook.com
+  - name: linkedin
+    url: http://linkedin.com
+  - name: dribbble
+    url: http://dribbble.com -->
+- name: Research
+  position: nearly 1.5 years
+  avatar: images/datamini.jpg
+  avatar_hover: datamini.jpg
+  <!-- socials:
+  - name: twitter
+    url: http://twitter.com
+  - name: facebook
+    url: http://facebook.com
+  - name: linkedin
+    url: http://linkedin.com
+  - name: dribbble
+    url: http://dribbble.com -->
+- name: Administration  
+  position: about 3 years
+  avatar: images/admmini.jpg
+  avatar_hover: admmini.jpg
+  <!-- socials:
+  - name: twitter
+    url: http://twitter.com
+  - name: facebook
+    url: http://facebook.com
+  - name: linkedin
+    url: http://linkedin.com
+  - name: dribbble
+    url: http://dribbble.com -->
+
+skills_left:
+- title: Self-Driven
+  percent: 95
+- title: Intersonal Communication
+  percent: 86
+skills_right:
+- title: Creativity 
+  percent: 92
+- title: Problem Sloving
+  percent: 85
+
+testimonials_left:
+- author: Self-Driven, Maximize Resource
+  content: I have always been self-motivated.For example, although photo,video editing, web content development skills were not an essential part of my responsibilities, I picked up these skills while I was working to fully utilize the resources I had. Best of all, with the newly acquired skills, I could cover other editors to finish projects when emergencies happened.
+  avatar: images/motivmini.jpg
+
+- author: Effective Interpersonal & Communication 
+  content: I believe teamwork leads to increased productivity and performance. I always share, listen, respect, empathize, respond and collaborate with different race, ethnic, religion and culture groups during my previous work. Communication is key for effective relationship building.
+  avatar: images/communicationmini.jpg
+
+testimonials_right:
+- author: Fostering Creativity & Flexibility
+  content: I believe open mindedness always offer people new gates. I told myslef the world is full of endless possibilities and infinite potentials. Therefore, I like observe, present and implement probems with a different viewpoint.   
+  avatar: images/innomini.jpg
+
+- author: Problem Solving
+  content: To better solve the problm, I usually research & define the cause of the issue, then, gather more data & analyze the stiuation. For instance, I worked before was a start-up company. I suggest the marketing department to use affordable social media instead of the massive traditional advertising. It was a larger amount financial saving for the company. Meanwhile, I lead my department by build new website, create, maintain our social media acounts.  
+  avatar: images/problemmini.jpg
+
+clients:
+- image: images/newsmini1.jpg
+- image: images/newsmini2.jpg
+- image: images/newsmini3.jpg
+- image: images/newsmini4.jpg
+- image: images/newsmini5.jpg
+- image: images/newsmini6.jpg
+
+---
+
+<div class="full light-grey centered-text tree">
+  <div class="four spacing"></div>
+  <div class="section-title">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+        <h1 class="wow slideInUp">About Sara</h1>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="medium-9 medium-centered columns">
+      <div class="header-quote">
+        <p>"As a self-motivated person, I always approach my study & work in the best and most cost-effective way."</p>
+      </div>
+    </div>
+  </div>
+  <div class="two spacing"></div>
+</div>
+<div class="full">
+  <div class="section-title">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+      <!--   <h2>The team</h2>
+        <p>We are happy to work together</p> -->
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    {% for member in page.members %}
+      <div class="large-3 columns">
+        <div class="member">
+          <img src="{{site.url}}/{{member.avatar}}" alt="">
+          <img class="colored" src="{{site.url}}/{{member.avatar_hover}}" alt="">
+          <div class="member-info">
+            <h4>{{member.name}}</h4>
+            <p class="position">{{member.position}}</p>
+            <ul class="socials">
+              {% for social in member.socials %}
+                <li><a href="{{social.url}}"><i class="fa fa-{{social.name}}"></i></a></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+<div class="full light-grey">
+  <div class="section-title">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+        <h2>Highlights</h2>
+        <p>Evaluating & Identifying Sara Wang</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="medium-6 columns">
+      <div class='mod modBarGraph'>
+        <ul class='bars'>
+          {% for skill in page.skills_left %}
+            <li>
+              <h4>{{skill.title}}<strong>{{skill.percent}}%</strong></h4>
+              <p class="highlighted" data-percent="{{skill.percent}}"></p>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <div class="medium-6 columns">
+      <div class='mod modBarGraph'>
+        <ul class='bars'>
+          <ul class='bars'>
+            {% for skill in page.skills_right %}
+              <li>
+                <h4>{{skill.title}}<strong>{{skill.percent}}%</strong></h4>
+                <p class="highlighted" data-percent="{{skill.percent}}"></p>
+              </li>
+            {% endfor %}
+          </ul>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="full">
+  <div class="section-title">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+        <h2>CHARACTERISTIC</h2>
+        <p>I am delighted to sharing my personality with you</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-6 columns">
+      {% for testimonial in page.testimonials_left %}
+        <div class="quote wow slideInLeft" data-wow-delay="{{ 0.2 | times:forloop.index0 }}s">
+          <div class="row">
+            <div class="small-3 columns">
+              <img src="{{testimonial.avatar}}" alt="auhor">
+            </div>
+            <div class="small-9 columns">
+              <p>{{testimonial.content}}</p>
+              <p class="author">{{testimonial.author}}</p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="large-6 columns">
+      {% for testimonial in page.testimonials_right %}
+        <div class="quote reverse wow slideInRight" class="wow" data-wow-delay="{{ 0.2 | times:forloop.index0 }}s">
+          <div class="row">
+            <div class="small-3 columns">
+              <img src="{{testimonial.avatar}}" alt="auhor">
+            </div>
+            <div class="small-9 columns">
+              <p>{{testimonial.content}}</p>
+              <p class="author">{{testimonial.author}}</p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+<div class="full light-grey no-padding">
+  <div class="two spacing"></div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='clients'>
+        {% for client in page.clients %}
+          <div><a href="#"><img alt="" src="{{site.url}}/{{client.image}}"></a></div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="two spacing"></div>
+</div>
