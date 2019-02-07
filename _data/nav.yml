@@ -1,9 +1,9 @@
 - name: Home
-  path: Intro.html
+  path: index.html
   section_id: home
   children:
     - name: Introduction
-      path: Intro.html
+      path: index.html
     - name: Personality 
       path: personality.html
     - name: Education
