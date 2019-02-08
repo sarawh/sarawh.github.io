@@ -72,26 +72,26 @@
 .full.mianbao {
   background-image: url(../images/mianbao300.jpg);
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: left bottom;
   background-attachment: fixed; }
 
-.full.tree {
+.full.aboutbackground {
   min-height: 60%;
-  background-image: url(../images/@stock/tree.png);
+  background-image: url(../images/aboutbackground.jpg);
   background-repeat: no-repeat;
   background-position: center 55%;
   background-attachment: fixed; }
 
-.full.lamp {
+.full.simple {
   min-height: 60%;
-  background-image: url(../images/@stock/lamp.png);
+  background-image: url(../images/simplebackground.jpg);
   background-repeat: no-repeat;
   background-position: 80% 10%;
   background-attachment: fixed; }
 
-.full.white-light {
+.full.aboutbackground {
   min-height: 60%;
-  background-image: url(../images/@stock/white-light.png);
+  background-image: url(../images/aboutbackground.jpg);
   background-repeat: no-repeat;
   background-position: 20% top;
   background-attachment: fixed; }

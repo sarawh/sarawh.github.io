@@ -11,17 +11,17 @@ services:
 - title: Web Design
   desc: Layout design,content development,wordpress,html,css
   icon: icon-basic-mouse
-- title: Post-production 
-  desc: video editing,premiere,finalcut,audition 
+- title: Post Production 
+  desc: PR,AE, AU, finalcut
   icon: icon-basic-signs
-- title: Administrative Support
+- title: Administration
   desc: Microsoft Office
   icon: icon-basic-printer
-- title: Research 
+- title: Research
   desc: data analysis,statistic,SASS
   icon: icon-basic-book
 
-steps:
+<!-- steps:
 - title: Research
   desc: Lorem ipsum dolor sit amet adipisicing elit. Maxime eos facilis veniam obcaecati,
     fugiat illo soluta accusantium?
@@ -30,7 +30,7 @@ steps:
     accusamus sint et repudiandae ea sapiente voluptatibus fuga.
 - title: Management
   desc: Dolor sit amet, consectetur adipisicing elit. Maxime eos facilis veniam obcaecati,
-    fugiat illo soluta accusantium?
+    fugiat illo soluta accusantium? -->
 ---
 
 <div class="full centered-text light-cyan lamp">
@@ -70,14 +70,14 @@ steps:
 </div>
 
 <div class="full light-grey">
-  <div class="section-title">
+  <!-- <div class="section-title">
     <div class="row">
       <div class="medium-10 medium-centered columns">
         <h2>Our process</h2>
         <p>We do things step by step</p>
       </div>
     </div>
-  </div>
+  </div> -->
   <div class="row">
     {% for step in page.steps %}
       <div class="large-4 columns">
@@ -93,7 +93,7 @@ steps:
   <div class="two spacing"></div>
   <div class="row">
     <div class="large-12 columns">
-      <h2>Have a project in mind?</h2>
+      <h2>Have a question about me?</h2>
       <div class="two spacing"></div>
       <a href="{{site.url}}/contact.html" class="button brown boxed">Let's talk</a>
     </div>
