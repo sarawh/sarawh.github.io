@@ -38,12 +38,25 @@
 .four.spacing {
   height: 80px; }
 
+.half.spacing {
+  height: 10px; }
+
+.quarter.spacing {
+  height: 5px; }
+
 .full {
   padding: 100px 0;
   background-size: cover;
   background-position: 50% 50%;
   position: relative;
   /* for work section and member section*/ }
+
+.full.thin {
+  padding: 50px 0;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+}
 
 .full.light {
   color: #fff; }

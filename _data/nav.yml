@@ -44,6 +44,10 @@
     - name: Portfolio 
       path: portfolio-for-interests.html
 
+- name: Résumé
+  path: resume.html
+  section_id: resume
+
 - name: Contact
   path: contact.html
   section_id: contact
